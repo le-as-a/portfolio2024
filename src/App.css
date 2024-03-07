@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9c86b3;
+  display: flex;
+  justify-content: center;
+  color: #222034;
+  width: 100vw;
+}
+
+#portfolio-title {
+  margin-top: 5rem;
+}
+
+.title {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#subtitle {
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  border-top: solid;
+  display: flex;
+  padding-top: 1rem;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  gap: 5rem;
+}
