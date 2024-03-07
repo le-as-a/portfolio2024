@@ -18,13 +18,13 @@
 .navbar {
     border-top: solid;
     display: flex;
-    padding-top: 1rem;
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 1rem 10rem;
 }
 
 .nav-item {

@@ -4,7 +4,16 @@ body {
   background-color: #9c86b3;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #222034;
   width: 100vw;
+  max-height: 100vh;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40vw;
+}
