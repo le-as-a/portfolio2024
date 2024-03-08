@@ -6,6 +6,7 @@
     box-shadow: 10px 10px 3px #222034;
     padding: 0 3rem;
     padding-bottom: 1rem;
+    max-height: 50vh;
 }
 
 .about img {
