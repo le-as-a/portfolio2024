@@ -17,9 +17,9 @@ function Header () {
             <NavLink to="/projects" className={
               ({ isActive }) => isActive ? "nav-item active" : "nav-item"
             }>Projects</NavLink>
-            <NavLink to="/games" className={
+            {/* <NavLink to="/games" className={
               ({ isActive }) => isActive ? "nav-item active" : "nav-item"
-            }>Games</NavLink>
+            }>Games</NavLink> */}
           </div>
         </>
       );

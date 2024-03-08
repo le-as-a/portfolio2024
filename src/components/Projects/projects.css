@@ -3,12 +3,10 @@
     flex-wrap: wrap;
     width: 125%;
     margin: 0;
-    align-items: center;
     justify-content: center;
     gap: 1rem;
     height: 50vh;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow-y: scroll;
     scrollbar-color: #222034 transparent;
     scrollbar-width: thin;
 }
@@ -22,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 20rem;
 }
 
 .proj-title {
@@ -36,6 +35,9 @@
 .proj-desc {
     margin: 0;
     text-align: justify;
+    overflow-y: scroll;
+    scrollbar-color: #222034 transparent;
+    scrollbar-width: thin;
 }
 
 .proj-desc a {
