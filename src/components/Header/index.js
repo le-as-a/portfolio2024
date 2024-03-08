@@ -5,7 +5,7 @@ import React from 'react';
 function Header () {
     return (
         <>
-          <img id="portfolio-title" src="portfolio-title.gif" alt="title" />
+          <img id="portfolio-title" src="portfolio-title.gif" alt="Asia Anh Le" />
           <p className='title' id="subtitle">Software Engineer & Certified Nerd</p>
           <div className='navbar'>
             <NavLink to="/" className={

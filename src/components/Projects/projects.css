@@ -1,0 +1,41 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.project {
+    background-color: #e2d9ea;
+    box-shadow: 10px 10px 3px #222034;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    max-width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-title {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.proj-desc {
+    margin: 0;
+    text-align: justify;
+}
+
+.proj-desc a {
+    text-decoration: none;
+    color: #533a6a;
+}
+
+.proj-desc a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
