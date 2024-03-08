@@ -1,14 +1,15 @@
 .about {
-    padding: 1rem 3rem;
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    margin: 1rem 0;
     font-size: large;
     text-align: justify;
+    background-color: #e2d9ea;
+    box-shadow: 10px 10px 3px #222034;
+    padding: 0 3rem;
+    padding-bottom: 1rem;
 }
 
 .about img {
     float: left;
-    margin: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
 }

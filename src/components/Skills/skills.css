@@ -1,0 +1,33 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 10%;
+    margin: 1rem 0;
+    justify-content: center;
+    background-color: #e2d9ea;
+    box-shadow: 10px 10px 3px #222034;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.skill-footer {
+    margin-top: 1rem;
+    padding: 1rem 5rem;
+    border-top: solid;
+    font-size: small;
+}
+
+.skill-footer a {
+    text-decoration: none;
+    color: #533a6a;
+}
+
+.skill-footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}

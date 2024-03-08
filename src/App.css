@@ -7,7 +7,7 @@ body {
   align-items: center;
   color: #222034;
   width: 100vw;
-  max-height: 100vh;
+  max-height: 100%;
 }
 
 #root {
@@ -16,4 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 40vw;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
