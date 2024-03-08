@@ -31,7 +31,7 @@ function Skills () {
                 </div>
                 <div className='skill'>
                     <img alt='node' src="skills/nodejs.png" width="75px" />
-                    <p>Node</p>
+                    <p>Node.js</p>
                 </div>
                 <div className='skill'>
                     <img alt='git' src="skills/git.png" width="75px" />
